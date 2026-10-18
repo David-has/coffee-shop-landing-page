@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bean & Bloom, a cozy neighborhood coffee shop with freshly roasted coffee and homemade pastries.">
+  <title>Bean & Bloom | Coffee Shop</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <a href="#" class="logo">Bean & Bloom</a>
+    <nav class="nav">
+      <ul>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <h1>Fresh coffee, made with love</h1>
+      <p>Freshly roasted beans, homemade pastries and a warm place to relax.</p>
+      <a href="#contact" class="btn">Reserve a table</a>
+    </section>
+
+    <section class="features" id="menu">
+      <h2>Why you will love us</h2>
+      <div class="features-grid">
+        <article class="card">
+          <img src=" images/coffee.jpg" alt="A cup of fresh espresso">
+          <h3>Freshly roasted</h3>
+          <p>Our beans are roasted every week for the best flavor in every cup.</p>
+        </article>
+        <article class="card">
+          <img src="images/pastry.jpg" alt="Homemade croissants on a plate">
+          <h3>Homemade pastries</h3>
+          <p>Baked every morning, from classic croissants to seasonal specials.</p>
+        </article>
+        <article class="card">
+          <img src="images/interior.jpg" alt="Cozy coffee shop interior">
+          <h3>Cozy atmosphere</h3>
+          <p>A calm space to work, read or meet friends.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h2>Our story</h2>
+      <p>Bean & Bloom started as a small dream: a place where good coffee and good people meet. We work with local suppliers and care about every detail.</p>
+      <blockquote>
+        "The best flat white in town, and the staff is so friendly!"
+        <cite>Maria, regular customer</cite>
+      </blockquote>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Get in touch</h2>
+      <form action="#" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="btn">Send message</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Bean & Bloom. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
